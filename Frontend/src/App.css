@@ -1,0 +1,30 @@
+/* App.css */
+.table-container {
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f8f8f8;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
